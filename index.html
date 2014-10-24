@@ -9,13 +9,20 @@
   <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
-<header class="masthead">
+
+<ul class="skip-links">
+	<li><a href="#main"> Jump to main content</a></li>
+	<li><a href="#navigation"> Jump to navigation</a></li>
+</ul> 
+
+
+<header role="banner" class="masthead">
 	<div class="grid grid-middle island-half">
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
 			<h1 class="title peta pad-bottom-half"> Jupiter </h1>
 		</div>
 		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-			<nav>
+			<nav id="navigation" role="navigation">
 				<ul class="nav giga push-none">
 					<li class="gutter-half pad-bottom-half"><a href="index.html">Planet</a></li>
 					<li class="gutter-half pad-bottom-half"><a href="moon.html">Moons</a></li>
@@ -26,7 +33,7 @@
 	</div>
 </header>
 
-<main>
+<main id="main" role="main">
 
 	<div class="peta subhead island-half">
     	<p class="push-none">Jupiter, the fifth planet from the Sun</p>
@@ -99,7 +106,7 @@
 
   <footer class="footer island ">
   	<div class="grid grid-middle">
-  		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
+  		<div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
   			<p class="push-none">© Jupiter Planetary Consortium</p>
   		</div>
   		<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
