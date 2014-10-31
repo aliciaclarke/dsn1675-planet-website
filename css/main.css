@@ -220,6 +220,10 @@ input + label {
   font-style: italic;
 }
 
+.radio {
+  white-space: nowrap;
+}
+
 fieldset{
   border: none;
   padding:0;
