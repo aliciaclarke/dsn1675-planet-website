@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-  <meta charset="utf-8">
-  <title>Planet Jupiter</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link href="css/main.css" rel="stylesheet">
-<link href="css/grids.css" rel="stylesheet">
-<link href="css/typography.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Planet Jupiter</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/grids.css" rel="stylesheet">
+	<link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
 
@@ -36,6 +36,52 @@
 <main>
 
 	<h1 class="push-double subhead island-half">Exploration</h1>
+
+<div class="form-color island">
+
+	<form action="thanks.html" method="post"> 
+
+		<div class="join">
+		<h2> Join Jupiter's Exploration Team</h2>
+		<p> Are you interested in exploring Jupiter with a group of extremely talented people? <em>Sign up below!</em> </p>
+	</div>
+
+	<div>
+		<label for="name">Name</label>
+		<input id ="name" class="enter-info">
+	</div>
+
+	<div>
+		<label for="email">E-mail</label>
+		<input id="email" class="enter-info">
+	</div>
+
+	<div class="push">
+		<label for="age"> Age</label>
+		<input type="number" id="age" min="18" max="65" class="enter-info">
+	</div>
+
+	<fieldset>
+		<legend class="awesome">Your Level of Awesomeness</legend>
+		<input type="radio" id="meh" name="level">
+		<label for="meh">Meh..</label>
+		<input type="radio" id="meh" name="level">
+		<label for="meh">Kinda..</label>
+		<input type="radio" id="super" name="level">
+		<label for="super">Super!</label>
+	</fieldset>
+
+	<div>
+		<label for="explanation">Explain why you deserve to go:</label>
+		<textarea id="explanation" class="explain-box"></textarea>
+	</div>
+
+	<div class="submit">
+		<button type="submit">Sign Up</button>
+	</div>
+	</div>
+</form>
+
 <footer class="footer">
   	<div class="grid grid-middle">
   		<div role="contentinfo" class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 copyright">
